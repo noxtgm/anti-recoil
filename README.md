@@ -7,7 +7,7 @@ Adjustable anti-recoil script that pulls down the mouse alongside slight randomn
 
 <div align=center style="text-align: center;"><h2>DISCLAIMER</h2></div>
 
-This project was made for educational purposes only, event callbacks used in this script are not supported by newer versions of LGHUB anymore.
+This project was made for educational purposes only, event callbacks used in this script are not supported by newer versions of LGHUB.
 
 ###
 
