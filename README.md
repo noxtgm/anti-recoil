@@ -13,7 +13,7 @@ This project was made for educational purposes only, event callbacks used in thi
 
 <div align=center style="text-align: center;"><h2>LICENSE</h2></div>
 
-[Mozilla Public License 2.0](https://choosealicense.com/licenses/mpl-2.0/)
+[General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/)
 
 ###
 
