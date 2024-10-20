@@ -1,4 +1,4 @@
-# Logitech Anti Recoil
+# Anti Recoil
 
 Adjustable anti-recoil script that pulls down the mouse alongside slight randomness.
 
