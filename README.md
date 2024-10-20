@@ -1,22 +1,17 @@
-<div align=center style="text-align: center;">
-<h1>Anti Recoil</h1>
+# Logitech Anti Recoil
+
 Adjustable anti-recoil script that pulls down the mouse alongside slight randomness.
-</div>
 
-###
+> [!CAUTION]
+>  This project was made for educational purposes only the point isn't about using it but understanding event callbacks, that's why I'm not including an installation guide, moreover event callbacks used in this script are not supported by newer versions of LGHUB.
 
-<div align=center style="text-align: center;"><h2>DISCLAIMER</h2></div>
+> [!NOTE]
+>  If the effect of the filter isn't applied in the entire scene, remember to check `Infinite Extent` in the post process' settings.
 
-This project was made for educational purposes only, event callbacks used in this script are not supported by newer versions of LGHUB.
-
-###
-
-<div align=center style="text-align: center;"><h2>LICENSE</h2></div>
+## 📄 License
 
 [General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/)
 
-###
+## 🔗 Links
 
-<div align=center style="text-align: center;"><h2>LINKS</h2></div>
-
-<a href="https://noxtgm.me" target="_blank" rel="noreferrer"><img src="https://i.imgur.com/NSwlxNu.png" alt="portfolio" width="40" height="40"/></a> <a href="https://github.com/noxtgm" target="_blank" rel="noreferrer"><img src="https://i.imgur.com/LwT8Wxa.png" alt="github" width="40" height="40"/></a> <a href="https://twitter.com/noxtgm" target="_blank" rel="noreferrer"><img src="https://i.imgur.com/P3s7bOl.png" alt="twitter" width="40" height="40"/></a> <a href="https://noxtgm.itch.io/" target="_blank" rel="noreferrer"><img src="https://i.imgur.com/d9pIWxO.png" alt="itchio" width="40" height="40"/></a> <a href="https://next.nexusmods.com/profile/noxtgm" target="_blank" rel="noreferrer"><img src="https://i.imgur.com/la4rbPq.png" alt="nexusmods" width="40" height="40"/></a>
+<a href="https://noxtgm.me" target="_blank" rel="noreferrer"><img src="https://i.imgur.com/H2NbhsL.png" alt="portfolio" width="40" height="40"/></a> <a href="https://noxtgm.itch.io/" target="_blank" rel="noreferrer"><img src="https://i.imgur.com/d9pIWxO.png" alt="itchio page" width="40" height="40"/></a> <a href="https://next.nexusmods.com/profile/noxtgm" target="_blank" rel="noreferrer"><img src="https://i.imgur.com/la4rbPq.png" alt="nexusmods page" width="40" height="40"/></a>
