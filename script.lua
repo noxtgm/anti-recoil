@@ -1,6 +1,6 @@
 local weapon_table = {Horizontal = 0, Vertical = 9, FireDelay = 10}
-local toggle_key   = "numlock"   -- Key to toggle the script ("capslock" or "numlock" is recommended for easier use but any keyboard key works fine)
-local fire_key     = 1           -- Key to fire your weapon in-game (1: left click, 2: right click, 3: scroll wheel button, 4: fourth mouse button, ...)
+local toggle_key   = "numlock"
+local fire_key     = 1
 
 local is_active = true
 
