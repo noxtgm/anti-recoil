@@ -1,15 +1,6 @@
---────────────────────────────────────────────────────────── HOW IT WORKS ──────────────────────────────────────────────────────────--
-
--- Set the vertical and horizontal recoil values as well as the delay for every bullet fired (in milliseconds, doesn't have to be exact).
--- For vertical and horizontal recoil values, a negative number will result in the cursor going down for vertical and left for horizontal.
-
---────────────────────────────────────────────────────────── USER SETTINGS ─────────────────────────────────────────────────────────--
-
 local weapon_table = {Horizontal = 0, Vertical = 9, FireDelay = 10}
 local toggle_key   = "numlock"   -- Key to toggle the script ("capslock" or "numlock" is recommended for easier use but any keyboard key works fine)
 local fire_key     = 1           -- Key to fire your weapon in-game (1: left click, 2: right click, 3: scroll wheel button, 4: fourth mouse button, ...)
-
---────────────────────────────────────────────────────── END OF USER SETTINGS ──────────────────────────────────────────────────────--
 
 local is_active = true
 
@@ -93,7 +84,6 @@ function OnEvent(event, arg)
     if IsKeyLockOn(toggle_key) then
         if is_active == false then
             is_active = true
-            OutputLogMessage('» Script is on\n\n')
         end
 
         if event == "MOUSE_BUTTON_PRESSED" and arg == fire_key then
@@ -102,7 +92,6 @@ function OnEvent(event, arg)
     else
         if is_active == true then
             is_active = false
-            OutputLogMessage('» Script is off, toggle using: %s\n\n', toggle_key)
         end
     end
 end
@@ -112,10 +101,8 @@ function Initialize()
 
     if IsKeyLockOn(toggle_key) then
         is_active = true
-        OutputLogMessage('» Script is on\n\n')
     else
         is_active = false
-        OutputLogMessage('» Script is off, toggle using: %s\n\n', toggle_key)
     end
 end
 
