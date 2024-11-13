@@ -1,4 +1,4 @@
-local weapon_table = {Horizontal = 0, Vertical = 9, FireDelay = 10}
+local weapon_table = {Horizontal = 0, Vertical = 10, FireDelay = 10}
 local toggle_key   = "numlock"
 local fire_key     = 1
 
@@ -97,8 +97,6 @@ function OnEvent(event, arg)
 end
 
 function Initialize()
-    ClearLog()
-
     if IsKeyLockOn(toggle_key) then
         is_active = true
     else
