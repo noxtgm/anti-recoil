@@ -3,7 +3,7 @@
 Adjustable anti-recoil script that pulls down the mouse alongside slight randomness.
 
 > [!CAUTION]
->  This project was made for educational purposes only, the point isn't about using it but understanding event callbacks, that's why I'm not including an installation guide (please don't ask me how to set it up). Moreover, the specific event callbacks used in this script are not supported by newer versions of LGHUB anymore though the logic remains similar.
+> This project was made for educational purposes only, the point isn't about using it but understanding event callbacks, that's why I'm not including an installation guide (please don't ask me how to set it up). Moreover, the specific event callbacks used in this script are not supported by newer versions of LGHUB anymore though the logic remains similar.
 
 ## 📄 License
 
